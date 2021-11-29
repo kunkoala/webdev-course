@@ -1,0 +1,102 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+.top-container {
+    background-color:rgb(255, 241, 212);
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding-top: 100px;
+}
+
+#my-name {
+    width: 75%;
+    color: rgb(85, 147, 204);
+    font-size: 50px;
+    font-family: 'Press Start 2P', sans-serif;
+    margin: 30px auto 16px auto;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    display: block;
+}
+
+#my-name:hover {
+    color: #eee;
+}
+
+#bio {
+    margin: 12px 12px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 25px;
+    color: rgb(8, 71, 131);
+}
+
+.top-cloud {
+    width: 195px;
+    position: absolute;
+    top: 50px;
+    right: 18%;
+}
+.bottom-cloud {
+    width: 195px;
+    position: absolute;
+    left: 13%;
+    bottom: 240px;
+}
+.figure {
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.figure .my-pic {
+    position: relative;
+    width: 220px;
+    border-radius: 100%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    margin: 0 auto;
+}
+
+.figure .trang-pic {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+}
+.figure:hover .my-pic {
+    opacity: 1;
+}
+
+.mountain-img {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+
+.middle-container {
+    width: 100%;
+    background-color: rgb(190, 61, 245);
+}
+
+.bottom-container {
+    width: 100%;
+    background-color: rgb(255, 246, 217);
+}
+
+
+hr {
+    width: 500px;
+    border-color: black;
+}
+
