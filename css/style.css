@@ -26,7 +26,7 @@ h3 {
     color: rgb(85, 147, 204);
     font-size: 50px;
     font-family: 'Press Start 2P', sans-serif;
-    margin: 30px auto 16px auto;
+    margin: 50px auto 16px auto;
     -moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
     -webkit-transition: all .2s ease-in;
@@ -40,7 +40,7 @@ h3 {
 
 #bio {
     width: 45%;
-    margin: 12px auto;
+    margin: 12px auto 139px;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 25px;
     color: rgb(8, 71, 131);
@@ -56,7 +56,7 @@ h3 {
     width: 165px;
     position: absolute;
     left: 9%;
-    bottom: 240px;
+    bottom: 300px;
 }
 .figure {
     position: relative;
@@ -195,6 +195,11 @@ h3 {
     letter-spacing: 1.6px;
     text-decoration: none;
     color: rgb(155, 127, 70);
+    transition: all 250ms;
+}
+
+.footer-link:hover {
+    color: #2e2006;
 }
 
 .copyright {
@@ -203,6 +208,7 @@ h3 {
     color:black;
     padding: 10px;
     font-weight: bold;
+    font-size: 0.75rem;
     color: gray;
     letter-spacing: 1.5px;
 }
